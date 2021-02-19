@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Contest 2</string>
+    <string name="app_name">WorldVisit</string>
+    <string name="ajouter_un_pays">AJOUTER UN PAYS</string>
 </resources>
