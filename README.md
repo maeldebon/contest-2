@@ -1,5 +1,5 @@
 # Campus Contest 
-*Groupe 5*
+Groupe 5
 
 # Démarche
 
@@ -7,7 +7,7 @@ Dans un premier temps, nous nous sommes attardés sur la lecture et la synthéti
 Une fois cela fait, nous avons récupéré les différentes couleurs utilisées dans le design de l'application afin de remplacer les valeurs par défaut présentes sur le projet.
 Avant de commencer à développer l'application, nous avons réalisé un schéma de base de données rapide, afin d'être certains de ne pas avoir à la modifier plus tard.
 
-// schéma
+![schéma](https://pasteboard.co/JP62Lzg.png)
 
 Au niveau du langage utilisé, nous avons décidé de partir sur du Kotlin. Nous l'avons choisi car il est dans la continuité de notre formation, et plus particulièrement dans le cadre du module Mobile Application Development. Même si ce n'était pas le langage le plus simple à implémenter, il nous semble cohérent avec notre formation.
 
@@ -15,9 +15,9 @@ Au niveau du langage utilisé, nous avons décidé de partir sur du Kotlin. Nous
 # Répartition des tâches et difficultés rencontrées 
 
 Une fois le langage choisi, nous avons commencé à répartir les tâches
-• Partie calendrier (Clément)
-• Partie BDD (Maël)
-• Partie API (Clément)
+- Partie calendrier (Clément)
+- Partie BDD (Maël)
+- Partie API (Clément)
 
 Au niveau de la partie Calendrier, Clément n'a pas rencontré de soucis particuliers.
 Pour la partie Base de données, Maël a commencé par travailler avec ROOM, mais s'est rabattu sur une base SQLite après avoir rencontré de nombreux problèmes, coûteux en temps.
