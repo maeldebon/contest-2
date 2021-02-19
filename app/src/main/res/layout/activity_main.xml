@@ -7,14 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button_delete"
-        android:layout_width="116dp"
-        android:layout_height="wrap_content"
-        android:text="Delete"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="64dp"
-        tools:ignore="MissingConstraints" />
+<!--    <Button-->
+<!--        android:id="@+id/button_delete"-->
+<!--        android:layout_width="116dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Delete"-->
+<!--        tools:layout_editor_absoluteX="295dp"-->
+<!--        tools:layout_editor_absoluteY="64dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
 
     <LinearLayout
         android:layout_width="match_parent"
