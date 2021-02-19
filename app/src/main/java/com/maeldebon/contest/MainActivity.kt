@@ -12,19 +12,10 @@ class MainActivity : AppCompatActivity() {
         val context = this
         var db = DatabaseHandler(context)
 
-        button.setOnClickListener{
-            if(etvName.text.toString().isNotEmpty()) {
-                var user = User(etvName.text.toString())
-                db.insertData(user)
-            }
-        }
-
-        button_read.setOnClickListener{
-             var data = db.readDate()
-            tv_result.text = ""
-            for (i in 0..(data.size-1)) {
-                tv_result.append(data.get(i).id.toString() + " " + data.get(i).name + "\n")
-            }
+        var data = db.readData()
+        tv_result.text = ""
+        for (i in 0..(data.size-1)) {
+            tv_result.append(data.get(i).id.toString() + " " + data.get(i).name + "\n")
         }
     }
 }

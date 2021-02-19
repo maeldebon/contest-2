@@ -7,51 +7,39 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="64dp"
+        tools:ignore="MissingConstraints" />
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <EditText
-            android:id="@+id/etvName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:padding="10dp">
-        </EditText>
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="348dp"
-            android:layout_height="67dp"
-            android:text="@string/ajouter_un_pays"
-            app:backgroundTint="#CD4E61"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/tv_result"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
         </TextView>
 
-
-        <Button
-            android:id="@+id/button_read"
-            android:layout_width="116dp"
-            android:layout_height="64dp"
-            android:layout_weight="1"
-            android:text="Read"
-            android:visibility="visible" />
-
-        <Button
-            android:id="@+id/button_delete"
-            android:layout_width="116dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Delete" />
-
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="@string/ajouter_un_pays"
+        app:backgroundTint="#CD4E61"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
