@@ -35,7 +35,7 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="67dp"
-        android:text="@string/ajouter_un_pays"
+        android:text="Ajouter un pays"
         app:backgroundTint="#CD4E61"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
